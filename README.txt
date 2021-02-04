@@ -7,3 +7,5 @@ https://www.youtube.com/watch?v=sgHicuJAu3g
 Animacja postaci:
 
 przy przejsciu calej mapy napis wygrana czy cos w tym stylu.
+
+Tło, kolory drzew itp.
