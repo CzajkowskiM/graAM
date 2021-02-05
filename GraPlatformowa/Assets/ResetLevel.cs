@@ -6,23 +6,8 @@ using UnityEngine;
 public class ResetLevel : MonoBehaviour
 {
 
-private Scene scene;
 
-void Start()
-{
-scene = SceneManager.GetActiveScene();
-}
-
-void OnTriggerEnter(Collider other)
-{
-if (other.gameObject.tag == "Player")
-	{
-	SceneManager.LoadScene(0);
-	}
-
-}
-
-void OnTriggerExit(Collider other) {
+void OnTriggerExit2D(Collider2D other) {
 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 }
 
