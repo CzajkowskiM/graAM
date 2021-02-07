@@ -5,18 +5,19 @@ using UnityEngine;
 public class Dmg : MonoBehaviour
 {
 
-	public float hp = 3f;
+void OnTriggerEnter2D (Collider2D collision){
+
+if (collision.gameObject.layer == 9){
+Debug.Log("test");
+}
 
 
-void OnTriggerExit2D(Collider2D other) {
-hp -= 1;
 }
 
 
     // Start is called before the first frame update
     void Start()
     {
-	hp = 3f;
         
     }
 
